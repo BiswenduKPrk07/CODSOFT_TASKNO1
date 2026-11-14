@@ -226,3 +226,28 @@ nav a {
         grid-template-columns: 1fr;
     }
 }
+
+/* Professional Footer */
+footer {
+    background: linear-gradient(135deg, #111827, #1e293b);
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 50px;
+    border-top: 3px solid #38bdf8;
+}
+
+footer p {
+    margin: 8px 0;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+footer p:first-child {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+footer p:last-child {
+    color: #94a3b8;
+}
